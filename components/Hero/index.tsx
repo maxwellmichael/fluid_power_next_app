@@ -30,10 +30,7 @@ const Hero = () => {
                 </span> */}
               </h1>
               <p>
-              We -Fluid Power is based out of UAE, we have the state-of-the-art
-              technology and years of expertise necessary to Repair & maintain all kinds
-              of hydraulic equipment, and Fabrication work mainly focused on A/V
-              companies.
+              We, Fluid Power, are based out of the UAE. We possess state-of-the-art technology and years of expertise necessary to repair and maintain all kinds of hydraulic equipment. Additionally, we specialize in fabrication work primarily focused on A/V companies.
               </p>
 
               <div className="mt-10">

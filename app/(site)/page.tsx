@@ -15,8 +15,8 @@ import Testimonial from "@/components/Testimonial";
 import Hero2 from "@/components/Hero2";
 
 export const metadata: Metadata = {
-  title: "Next.js Starter Template for SaaS Startups - Solid SaaS Boilerplate",
-  description: "This is Home for Solid Pro",
+  title: "Fluid Power |  Create, Enhance & Sustain",
+  description: "TWe are based out of UAE, we have the state-of-the-art technology and years of expertise necessary to Repair & maintain all kinds of hydraulic equipment, and Fabrication work mainly focused on A/V companies.",
   // other metadata
 };
 

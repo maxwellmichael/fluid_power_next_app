@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Hero2() {
@@ -14,10 +15,11 @@ export default function Hero2() {
     className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
   >
     <div className="max-w-xl text-center sm:text-left">
+      <h3 className='text-xl mb-2'><span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark"><span className='text-primary'>Fluid Power</span> Technical Services</span></h3>
       <h1 className="text-3xl font-extrabold sm:text-5xl">
-      <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-              <span className="text-primary">Fluid Power</span> Technical Services
-              </span>
+      <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
+      Create, Enhance &amp; Sustain
+      </span>
       </h1>
 
       <p className="mt-4 max-w-lg sm:text-xl/relaxed">
@@ -25,19 +27,19 @@ export default function Hero2() {
       </p>
 
       <div className="mt-8 flex flex-wrap gap-4 text-center">
-        <a
-          href="#"
+        <Link
+          href="/contact"
           className="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
         >
-          Get Started
-        </a>
+          Contact Us
+        </Link>
 
-        <a
+        {/* <a
           href="#"
           className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
         >
           Learn More
-        </a>
+        </a> */}
       </div>
     </div>
   </div>
