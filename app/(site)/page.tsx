@@ -13,10 +13,11 @@ import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 import Hero2 from "@/components/Hero2";
+import ServicesSection from '../../components/ServicesSection/index';
 
 export const metadata: Metadata = {
   title: "Fluid Power |  Create, Enhance & Sustain",
-  description: "TWe are based out of UAE, we have the state-of-the-art technology and years of expertise necessary to Repair & maintain all kinds of hydraulic equipment, and Fabrication work mainly focused on A/V companies.",
+  description: "We are based out of UAE, we have the state-of-the-art technology and years of expertise necessary to Repair & maintain all kinds of hydraulic equipment, and Fabrication work mainly focused on A/V companies.",
   // other metadata
 };
 
@@ -25,8 +26,9 @@ export default function Home() {
     <main>
       {/* <Hero /> */}
       <Hero2/>
-      <Brands />
-      <Feature />
+      {/* <Brands /> */}
+      {/* <Feature /> */}
+      <ServicesSection/>
       <About />
       <FeaturesTab />
       <FunFact />
