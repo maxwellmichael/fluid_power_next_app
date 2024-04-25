@@ -16,8 +16,8 @@ const Slider = ({ children: slides, autoSlide = false, autoSlideInterval = 3000 
 
 
     return (
-        <div className='overflow-hidden relative rounded-lg' style={{width:'100%', height:'100%'}}>
-            <div className='flex transition-transform ease-out duration-500 relative w-full h-full' style={{ transform: `translateX(-${curr * 100}%)` }}>
+        <div className='overflow-hidden rounded-lg'>
+            <div className='flex transition-transform ease-out duration-500 relative' style={{ transform: `translateX(-${curr * 100}%)` }}>
                 {slides}
             </div>
             <div className="absolute inset-0 flex items-center justify-between p-4">

@@ -4,6 +4,7 @@ import React from "react";
 import SectionHeader from "../Common/SectionHeader";
 import Slider from "../Slider";
 import Image from "next/image";
+import MasonaryGallery from "../MasonaryGallery";
 
 const slides=[
     '/images/work/site_work_6.png',
@@ -28,14 +29,13 @@ const OurCompanySection = () => {
             }}
           />
 
-          <div className="h-[30rem] w-full my-12 flex items-center justify-center">
-          <div className="h-full w-1/2 relative">
-            <Slider autoSlide={true} >
+          <div className="w-full h-auto my-11">
+          {/* <Slider autoSlide={true} >
             {[...slides.map((s) => (
-                <img alt={s} style={{objectFit:'cover', objectPosition:'center'}} src={s} />
+                <img alt={s} src={s} style={{width:'auto', height:'auto', objectFit:'cover'}} />
             ))]}
-            </Slider>
-            </div>
+            </Slider> */}
+            <MasonaryGallery/>
           </div>
           
           
