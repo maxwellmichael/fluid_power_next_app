@@ -1,6 +1,6 @@
-import { Feature } from "@/types/feature";
+import { Service } from "@/types/feature";
 
-const featuresData: Feature[] = [
+const featuresData: Service[] = [
   {
     id: 1,
     image: "/images/services/hydraulic_services.webp",
