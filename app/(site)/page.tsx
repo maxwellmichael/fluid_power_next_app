@@ -14,6 +14,7 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 import Hero2 from "@/components/Hero2";
 import ServicesSection from '../../components/ServicesSection/index';
+import OurCompanySection from "@/components/OurCompanySection";
 
 export const metadata: Metadata = {
   title: "Fluid Power |  Create, Enhance & Sustain",
@@ -28,7 +29,9 @@ export default function Home() {
       <Hero2/>
       {/* <Brands /> */}
       {/* <Feature /> */}
-      <ServicesSection/>
+      {/* <ServicesSection/> */}
+      <OurCompanySection/>
+      
       <About />
       <FeaturesTab />
       <FunFact />

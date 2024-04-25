@@ -82,7 +82,6 @@ const Hero = () => {
                   className="absolute -right-6.5 bottom-0 z-1"
                 />
                 <div className="relative aspect-[700/444] w-full">
-                 <Slider/>
                 </div>
               </div>
             </div>

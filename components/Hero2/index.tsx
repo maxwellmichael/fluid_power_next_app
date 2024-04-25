@@ -23,7 +23,7 @@ export default function Hero2() {
       </h1>
 
       <p className="mt-4 max-w-lg sm:text-lg/relaxed text-socialicon">
-      We, Fluid Power, are based out of the UAE. We possess state-of-the-art technology and years of expertise necessary to repair and maintain all kinds of hydraulic equipment.
+      Based in the UAE, We Fluid Power use cutting-edge technology and extensive expertise, enabling us to proficiently repair and maintain all types of hydraulic equipment.
       </p>
 
       <div className="mt-8 flex flex-wrap gap-4 text-center">
