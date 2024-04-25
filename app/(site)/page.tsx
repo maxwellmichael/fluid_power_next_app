@@ -29,9 +29,8 @@ export default function Home() {
       <Hero2/>
       {/* <Brands /> */}
       {/* <Feature /> */}
-      {/* <ServicesSection/> */}
       <OurCompanySection/>
-      
+      <ServicesSection/>
       <About />
       <FeaturesTab />
       <FunFact />

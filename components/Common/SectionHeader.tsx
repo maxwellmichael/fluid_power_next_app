@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 type HeaderInfo = {
-  title: string;
+  title: string | null;
   subtitle: string;
   description: string;
 };
@@ -31,11 +31,11 @@ const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
         viewport={{ once: true }}
         className="animate_top mx-auto text-center"
       >
-        <div className="mb-4 inline-block rounded-full bg-primary px-4.5 py-1.5 dark:border dark:border-strokedark dark:bg-blacksection">
+      {title!=null?(  <div className="mb-4 inline-block rounded-full bg-primary px-4.5 py-1.5 dark:border dark:border-strokedark dark:bg-blacksection">
           <span className="text-sectiontitle font-medium text-white dark:text-white">
             {title}
           </span>
-        </div>
+        </div>):null}
         <h2 className="mx-auto mb-4 text-3xl font-bold text-black dark:text-white md:w-4/5 xl:w-1/2 xl:text-sectiontitle3">
           {subtitle}
         </h2>
