@@ -2,9 +2,7 @@
 import React from "react";
 
 import SectionHeader from "../Common/SectionHeader";
-import Slider from "../Slider";
-import Image from "next/image";
-import MasonaryGallery from "../MasonaryGallery";
+import Slider2 from "../Slider2";
 
 const slides=[
     '/images/work/site_work_6.png',
@@ -15,6 +13,14 @@ const slides=[
 ]
 
 const OurCompanySection = () => {
+  const slides = [
+    "/images/work/gear_box_2.jpg",
+    "/images/work/site_work_1.jpg",
+    "/images/work/site_work_2.jpg",
+    "/images/work/accumulator_changing.jpg",
+    "/images/work/gear_box_1.jpg",
+    "/images/work/site_work_4.jpg",
+];
   return (
     <>
       {/* <!-- ===== Features Start ===== --> */}
@@ -29,13 +35,18 @@ const OurCompanySection = () => {
             }}
           />
 
-          <div className="w-full h-auto my-11">
+<div className="bg-white">
+        <div className="relative mx-auto mt-4 md:mt-8">
+            <div className="lg:max-w-4xl lg:mx-auto">
           {/* <Slider autoSlide={true} >
             {[...slides.map((s) => (
                 <img alt={s} src={s} style={{width:'auto', height:'auto', objectFit:'cover'}} />
             ))]}
             </Slider> */}
-            <MasonaryGallery/>
+            {/* <MasonaryGallery/> */}
+            <Slider2 images={slides} />
+          </div>
+          </div>
           </div>
           
           
